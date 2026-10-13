@@ -4,4 +4,15 @@ student={
     "age":20
 }
 
+student["city"]="pune"
+student["marks"]=100
+
+del student["city"]
 print(student["marks"])
+print(student)
+
+if student["marks"]:
+    print("yes")
+
+for key,val in student.items():
+    print(key,val)
