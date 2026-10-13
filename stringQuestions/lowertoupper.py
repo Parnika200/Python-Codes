@@ -7,3 +7,5 @@ for i in str:
         r+=i.upper()
 
 print(r)
+
+#print(str.swapcase())
