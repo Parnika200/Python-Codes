@@ -8,6 +8,8 @@ student["city"]="pune"
 student["marks"]=100
 
 del student["city"]
+
+student.pop("city",None)
 print(student["marks"])
 print(student)
 
