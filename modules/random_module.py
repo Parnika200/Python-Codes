@@ -7,3 +7,7 @@ print(random.randrange(1,10,2)) # print values in range
 print(random.choice(list)) # random values from sequence
 print(random.shuffle(list))
 print(list)
+
+
+numbers = [random.randint(10, 50) for i in range(5)]
+print(numbers)
