@@ -11,6 +11,7 @@ avoid repeatation
 
 #1 import whole module
 import math
+import student
 print(math.pi)
 
 #2 import specific function
@@ -24,3 +25,6 @@ print(s.floor(8.5))
 #4 import everything (not recommended)
 from math import *
 print(sqrt(9))
+
+#user defined
+student.display("anna",1)
