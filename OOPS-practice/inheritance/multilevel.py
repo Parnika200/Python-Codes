@@ -2,11 +2,11 @@ class Grandma():
     def skill1(self):
         print("cooking")
 
-class Mom():
+class Mom(Grandma):
     def skill2(self):
         print("baking")
 
-class Child(Grandma,Mom):
+class Child(Mom):
     def skill3(self):
         print("dancing")
 
