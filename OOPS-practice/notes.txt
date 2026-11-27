@@ -10,3 +10,13 @@ What is destructor?
 
 called when obj is deleted.
 it is used to cleanup the resources obj was holding. (files,db links)
+
+What are magic methods?
+
+__add__(), __sub__(), __mul__()
+
+What is delegation -
+
+when one class passes its task to other class.
+manager does not do work he assigns to emp.
+HAS-A relationship
