@@ -5,3 +5,8 @@ fun is called using name(), method is called using .
 
 What are access modifiers in python -
 public,private,protected
+
+What is destructor?
+
+called when obj is deleted.
+it is used to cleanup the resources obj was holding. (files,db links)
