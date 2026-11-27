@@ -1,0 +1,7 @@
+What is difference between function and method -
+
+fun is declared independently,method is declared in class
+fun is called using name(), method is called using .
+
+What are access modifiers in python -
+public,private,protected
